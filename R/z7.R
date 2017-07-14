@@ -38,7 +38,6 @@ Z7 = function(dataset, k){
 
   #Step 3; midpoint from residuals, for j=2 in k.j and k{1,2,3}
   midpoint = res[, 1+(k-1)/2]
-  midpoint
 
   #Step 4; standard deviation of midpoint
   s = sd(midpoint)
@@ -48,7 +47,6 @@ Z7 = function(dataset, k){
   j = nrow(df)
   meanchi = (sqrt(2)*(gamma((j+1)/2)))/gamma(j/2)
   meanchi2 = 1/meanchi
-  meanchi
   
   S = (((j-1)/(sqrt(j-1)))/meanchi) 
   S2 = 1/S  
@@ -63,7 +61,6 @@ Z7 = function(dataset, k){
   
   t_plusone = nrow(df)+1
   prediction = intercept + (beta*t_plusone)
-  prediction
   
   #Step 7; Define EA_T = fEA
   l = length(EA)
