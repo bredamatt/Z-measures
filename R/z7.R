@@ -19,7 +19,6 @@
 
 
 Z7 = function(dataset, k){
-  library(zoo)
   require(zoo)
   
   df = dataset
@@ -43,7 +42,7 @@ Z7 = function(dataset, k){
   s = sd(midpoint)
   
   #Step 5; unbiased standard deviation, s2
-  # Notice how the meanchi is the mean of a chi distribution
+  #Notice how the meanchi is the mean of a chi distribution
   j = nrow(df)
   meanchi = (sqrt(2)*(gamma((j+1)/2)))/gamma(j/2)
   meanchi2 = 1/meanchi
