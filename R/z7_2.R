@@ -97,7 +97,3 @@ Z7 = function(dataset, k, e){
 
 TEST = data.frame(cbind(t,ROA,EA))
 Z = Z7(dataset,3,0.1)
-
-#Development dataset
-Dev = data.frame(dataset)
-Dev
