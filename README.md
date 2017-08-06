@@ -5,7 +5,7 @@ The measures, taken from "Nonstationary Z-score measures" in the European Journa
 
 For more information of the reasoning underlying the different formulas, please see the specified journal.
 
-With regards to z7_1 and z7_2 please review the .pdf files for an explanation of the code.
+With regards to z7_1 and z7_2 please review the .docx files for a step-by-step explanation of the code.
 
 Best,
 Mattia Bradascio.
