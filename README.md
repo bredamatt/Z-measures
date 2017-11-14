@@ -8,4 +8,5 @@ For more information of the reasoning underlying the different formulas, please 
 With regards to z7_1 and z7_2 please review the .docx files for a step-by-step explanation of the code.
 
 Best,
+
 Mattia Bradascio.
