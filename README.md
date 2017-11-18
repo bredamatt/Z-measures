@@ -1,4 +1,4 @@
-# zmeasures
+# Z-measures
 Z-score measures for estimating the probability of bank insolvency.
 
 The library was built based on "Nonstationary Z-score measures" in the European Journal of Operational Research (2017), by Davide Mare, Roberto Rossi and Fernando Moreira. The authors of the paper were my supervisors. Please see the following link for a copy of the paper: 
